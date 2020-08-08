@@ -1,0 +1,26 @@
+.button {
+    text-align: center;
+    width: 222px;
+    height: 43px;
+    @include btn-use ();
+    cursor: pointer;
+    &_order {
+        font-size: 24px;
+        font-stretch: normal;
+        font-style: normal;
+        // line-height: 2.33;
+        letter-spacing: 1.2px;
+        color: #ffffff;
+        background-color: #3ab16f;
+        text-transform: uppercase;
+    }
+
+    &_descr {
+        font-size: 22.5px;
+        font-stretch: normal;
+        font-style: normal;
+        // line-height: 2.49;
+        letter-spacing: 1.13px;
+        color: #b83b11;
+    }
+}
