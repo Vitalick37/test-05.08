@@ -19,10 +19,20 @@ body {
     padding: 0 20px;
 }
 
+
 @import 'blocks/menu-fixed';
 @import 'blocks/header';
 @import 'blocks/promo';
 @import 'blocks/cards';
 @import 'blocks/buttons';
+@import 'blocks/form';
+@import 'blocks/footer';
 
 @import 'base/media';
+
+.show {
+    display: flex;
+}
+.hide {
+    display: none;
+}

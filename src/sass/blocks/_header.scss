@@ -31,6 +31,11 @@
 }
 
 .bunner {
+    background: url(../img/bunner.png) center (center/100%) no-repeat;
+    min-height: 445px;
+    width: 100%;
+    margin-top: 17px;
+    margin-bottom: 64px;
 
     &__img {
         display: block;
